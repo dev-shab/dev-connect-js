@@ -10,3 +10,12 @@
 - Setup Routes for Login Profile and Body
 - Use Outlet to render children components
 - Craete a footer
+- Create a Login Page
+- Install axios
+- pass withCredential to axios to set cookies which contains the token
+- Install Redux Toolkit & react redux
+- Configure a store and pass the store to provider
+- Create a slice for user and pass the reducer to the store
+- Dispatch the user data to the store
+- Extract logged in user details in the NavBar
+- Redirect to the Feed page on login
