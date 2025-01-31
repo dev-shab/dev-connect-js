@@ -16,7 +16,8 @@
 - Install Redux Toolkit & react redux
 - Configure a store and pass the store to provider
 - Create a slice for user and pass the reducer to the store
-- Dispatch the user data to the store
+- Dispatch the user data to the store on login
 - Extract logged in user details in the NavBar
 - Redirect to the Feed page on login
 - Redirect to login if no token present
+- Implement logout and remove user from store and redirect to login page
