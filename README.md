@@ -19,3 +19,4 @@
 - Dispatch the user data to the store
 - Extract logged in user details in the NavBar
 - Redirect to the Feed page on login
+- Redirect to login if no token present
