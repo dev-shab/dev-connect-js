@@ -21,3 +21,6 @@
 - Redirect to the Feed page on login
 - Redirect to login if no token present
 - Implement logout and remove user from store and redirect to login page
+- Implement validation for login
+- Get feed data and add it to Feed Slice
+- Build User Card on Feed
