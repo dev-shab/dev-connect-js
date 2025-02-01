@@ -24,3 +24,6 @@
 - Implement validation for login
 - Get feed data and add it to Feed Slice
 - Build User Card on Feed
+- Implemented Edit profile feature
+- Display toast message on edit profile
+- Display all my connections
