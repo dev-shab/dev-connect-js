@@ -27,3 +27,4 @@
 - Implemented Edit profile feature
 - Display toast message on edit profile
 - Display all my connections
+- Display all my connection requests
