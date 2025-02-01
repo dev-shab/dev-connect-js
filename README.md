@@ -28,3 +28,4 @@
 - Display toast message on edit profile
 - Display all my connections
 - Display all my connection requests
+- Review the connection requests - accept/reject

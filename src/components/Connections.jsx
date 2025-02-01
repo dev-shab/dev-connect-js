@@ -24,7 +24,7 @@ const Connections = () => {
   }, [fetchConnections]);
 
   if (!connections.length) {
-    return <h1>No Connections found</h1>;
+    return <h1 className="text-center my-10">No Connections found</h1>;
   }
   return (
     <div className="text-center my-10">
