@@ -30,3 +30,4 @@
 - Display all my connection requests
 - Review the connection requests - accept/reject
 - Send connection request from feed or ignore the user
+- Signup page for users - modified the Login page
