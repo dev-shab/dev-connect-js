@@ -31,3 +31,23 @@
 - Review the connection requests - accept/reject
 - Send connection request from feed or ignore the user
 - Signup page for users - modified the Login page
+
+# Deployment
+
+- Signup on AWS
+- launch instance
+- chmod 400 <secret>.pem
+- Login to EC2 terminal: ssh -i "<secret>.pem" ubuntu@ec2-13-126-64-110.ap-south-1.compute.amazonaws.com
+- Install nvm for setting up node js to the instance
+- Clone the git projects to the ec2 instance
+
+# Frontend
+
+- npm install
+- npm run build
+- sudo apt update
+- sudo apt install nginx
+- sudo systemctl start nginx
+- sudo systemctl enable nginx
+- sudo scp -r dist/\* /var/www/html/ - Copy code from dist(built files) to /var/www/html
+- Enable port :80 of your instance
