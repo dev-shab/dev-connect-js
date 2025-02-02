@@ -51,4 +51,4 @@
 - sudo systemctl enable nginx
 - sudo scp -r dist/\* /var/www/html/ - Copy code from dist(built files) to /var/www/html
 - Enable port :80 of your instance
-- modify base url to "/api
+- modify base url to "/api"
